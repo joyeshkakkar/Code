@@ -1,5 +1,15 @@
 import java.util.Scanner;
+/*Given a positive integer, return its corresponding column title as appear in an Excel sheet.
 
+For example:
+
+    1 -> A
+    2 -> B
+    3 -> C
+    ...
+    26 -> Z
+    27 -> AA
+    28 -> AB */
 public class ExcelSheetColumnTitle {
 
 	public static void main(String[] args) {
@@ -29,8 +39,7 @@ public class ExcelSheetColumnTitle {
 			char c= (char) (a -1 + 'A');
 			sb.append(c);
 		}
-		return sb.reverse().toString();
-		
+		return sb.reverse().toString();		
 	}
 
 }
