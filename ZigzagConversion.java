@@ -16,7 +16,7 @@ public class ZigzagConversion {
 		System.out.println("Enter the string--->");;
 		String input=scanner.nextLine();
 		System.out.println("Enter the number of rows-->");
-		int numOfRows=Integer.parseInt(scanner.nextLine());
+		int numOfRows=scanner.nextInt();
 		scanner.close();
 		
 		System.out.println("Zigzag String-->"+zigzagConversion(input, numOfRows));

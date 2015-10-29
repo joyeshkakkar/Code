@@ -9,9 +9,8 @@ public class NimGame {
 	public static void main(String[] args) {
 		System.out.println("Please enter the number of stones--->");
 		Scanner scanner = new Scanner(System.in);
-		String input = scanner.nextLine();
+		int numOfStones = scanner.nextInt();
 		scanner.close();
-		int numOfStones = Integer.parseInt(input);
 		
 		System.out.println("Player 1 can win nim game--->"+canWinNim(numOfStones));
 	}

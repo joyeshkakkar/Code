@@ -13,12 +13,10 @@ public class AddDigits {
 
 	public static void main(String[] args) {
 		int num;
-		String input;
 		System.out.println("Enter a positive number--->");		
 		Scanner scanner = new Scanner(System.in);
-		input = scanner.nextLine();
+		num = scanner.nextInt();
 	    scanner.close();
-	    num=Integer.parseInt(input);
 		System.out.println(addDigits(num));
 	}
 	
