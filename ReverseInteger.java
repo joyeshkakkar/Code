@@ -21,7 +21,7 @@ public class ReverseInteger {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Enter the number-->");
-		int num=Integer.parseInt(scanner.nextLine());
+		int num=scanner.nextInt();
 		scanner.close();	
 		int y= -128%10;
 		System.out.println(y);

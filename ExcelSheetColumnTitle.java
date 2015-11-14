@@ -24,6 +24,9 @@ public class ExcelSheetColumnTitle {
 		System.out.println("Excel column for number 26 is--->"+convertToTitle(26));
 		System.out.println("Excel column for number 27 is--->"+convertToTitle(27));
 		System.out.println("Excel column for number 24568 is--->"+convertToTitle(24568));
+		System.out.println("Excel column for number 676 is--->"+convertToTitle(676));
+		System.out.println("Excel column for number 702 is--->"+convertToTitle(702));
+		System.out.println("Excel column for number 703 is--->"+convertToTitle(703));
 	}
 	
 	public static String convertToTitle(int n){
