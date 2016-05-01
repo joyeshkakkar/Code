@@ -12,7 +12,7 @@ public class UglyNumber {
 		System.out.println(number + " is ugly?---> "+isUgly(number));
 
 	}
-	
+
 	private static boolean isUgly(int num){
 		if(num < 1)
 			return false;
@@ -20,9 +20,8 @@ public class UglyNumber {
 			for(int i = 2; i <= 5; i++){
 				while(num%i == 0)
 					num /= i;
-			}		
-		}		
+			}
+		}
 		return num == 1;
 	}
-
 }
