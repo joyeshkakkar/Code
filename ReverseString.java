@@ -3,7 +3,6 @@ import java.util.Scanner;
 public class ReverseString {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		System.out.println("Enter a String--->");
 		Scanner scanner = new Scanner(System.in);	
 		System.out.println("Reversed String--->"+reverseString(scanner.nextLine()));
